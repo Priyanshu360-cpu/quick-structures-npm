@@ -1,8 +1,10 @@
-const linkedlist=require('./linkedlist.js');
-let a=new linkedlist(1);
-a.insert(2);
-a.insert(3);
-a.sort();
-a.delete(2);
-a.insertposition(2,1);
-a.print();
+class structures{
+    constructor(){
+    this.linkedlist = require('./linkedlist.js');
+    this.stack = require('./stack.js');
+    this.queue = require('./queue.js');
+    this.tree = require('./binarytree.js');
+    this.graph = require('./graph.js'); 
+ }
+}
+module.exports=structures;
