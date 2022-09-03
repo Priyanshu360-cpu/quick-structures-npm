@@ -2,6 +2,11 @@ class vector{
     data=[];
     constructor(){
     }
+    constructor(size,val){
+        for(let i=0;i<size;i++){
+            this.data.push(val);
+        }
+    }
     push_back(data){
         this.data.push(data);
     }
