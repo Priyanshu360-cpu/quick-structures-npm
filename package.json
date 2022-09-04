@@ -1,12 +1,16 @@
 {
   "name": "quick-structures",
-  "version": "1.0.1",
+  "version": "1.0.12",
   "description": "quick strucures and algorithms at your finger tips",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/Priyanshu360-cpu/quick-structures-npm"
+	},
   "keywords": ["structures","dsa","algorithms","graph","linkedlist","quick-structures"],
   "author": "",
   "license": "ISC"
