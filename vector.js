@@ -1,12 +1,10 @@
 class vector{
     data=[];
     constructor(){
+        this.data=[];
+        
     }
-    constructor(size,val){
-        for(let i=0;i<size;i++){
-            this.data.push(val);
-        }
-    }
+    
     push_back(data){
         this.data.push(data);
     }
@@ -33,3 +31,4 @@ class vector{
         this.data=[];
     }
 }
+module.exports=vector;

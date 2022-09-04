@@ -13,6 +13,9 @@ class stack{
     pop(){
         this.next=this.next.next;
     }
+    top(){
+        return this.next.data;
+    }
     print(){
         let temp=this;
         while(temp!=null){
