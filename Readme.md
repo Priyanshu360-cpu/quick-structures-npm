@@ -4,13 +4,15 @@ Data Structures provide us a convenient way of storing and handling data into ou
 
 This Package is aimed to provide users quick strucures and algorithms at their finger tips
 
-*Latest Version* - 1.0.13 
+*Latest Version* - 1.0.14 
 
 *Newly Updates*
 
 ```
 Added Trie
 Added Partial Search for Trie
+Added Strict Insert for Trie
+Added Strict Search for Trie
 Added and Fixed Sets
 ```
 
