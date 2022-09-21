@@ -35,6 +35,10 @@ For now this Package includes
 
 ![image](https://user-images.githubusercontent.com/79325092/188306050-e660606c-532e-4199-a54b-8754fd7a6db8.png)
 
+# Trie
+
+![image](https://user-images.githubusercontent.com/79325092/191437680-e12020c8-8090-4eff-bc28-f1620f821e91.png)
+
 # Queue
 
 ![image](https://user-images.githubusercontent.com/79325092/188306279-7914987f-bc31-4cdd-b718-88f07ea37c21.png)
