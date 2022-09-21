@@ -24,5 +24,5 @@ class set{
     at(index){
         return this.set[index];
     }
-    
 }
+module.exports=set;

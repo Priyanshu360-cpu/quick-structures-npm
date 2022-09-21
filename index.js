@@ -1,4 +1,4 @@
-class structures{
+ class structures{
     constructor(){
     this.linkedlist = require('./linkedlist.js');
     this.stack = require('./stack.js');
@@ -9,6 +9,7 @@ class structures{
     this.matrix=require('./matrix.js');
     this.map=require('./map.js');
     this.set=require('./set.js');
+    this.trie=require('./trie.js');
  }
 }
-module.exports=structures;
+module.exports = structures;

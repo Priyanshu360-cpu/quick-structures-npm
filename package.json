@@ -1,6 +1,6 @@
 {
   "name": "quick-structures",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "quick strucures and algorithms at your finger tips",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
 		"type": "git",
 		"url": "https://github.com/Priyanshu360-cpu/quick-structures-npm"
 	},
-  "keywords": ["structures","dsa","algorithms","graph","linkedlist","quick-structures"],
+  "keywords": ["structures","dsa","algorithms","graph","linkedlist","quick-structures","trie"],
   "author": "",
   "license": "ISC"
 }

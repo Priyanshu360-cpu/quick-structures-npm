@@ -4,7 +4,7 @@ Data Structures provide us a convenient way of storing and handling data into ou
 
 This Package is aimed to provide users quick strucures and algorithms at their finger tips
 
-*Latest Version* - 1.0.12 
+*Latest Version* - 1.0.13 
 
 *Newly Updates*
 
