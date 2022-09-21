@@ -6,6 +6,14 @@ This Package is aimed to provide users quick strucures and algorithms at their f
 
 *Latest Version* - 1.0.12 
 
+*Newly Updates*
+
+```
+Added Trie
+Added Partial Search for Trie
+Added and Fixed Sets
+```
+
 For now this Package includes
 
 1. LinkedList
@@ -17,6 +25,7 @@ For now this Package includes
 7. Set
 8. Vectors
 9. Matrix
+10. Trie
 
 # Linked List
 
