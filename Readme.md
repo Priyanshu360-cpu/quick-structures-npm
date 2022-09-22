@@ -19,15 +19,15 @@ Added and Fixed Sets
 For now this Package includes
 
 1. <a href="https://github.com/Priyanshu360-cpu/quick-structures-npm#linked-list">LinkedList</a>
-2. Graph
-3. Binary Tree
+2. <a href="https://github.com/Priyanshu360-cpu/quick-structures-npm#graph">Graph</a>
+3. <a href="https://github.com/Priyanshu360-cpu/quick-structures-npm#binary-tree">Binary Tree</a>
 4. Maps
-5. Queue
+5. <a href="https://github.com/Priyanshu360-cpu/quick-structures-npm#queue">Queue</a>
 6. Stacks
 7. Set
 8. Vectors
 9. Matrix
-10. Trie
+10. <a href="https://github.com/Priyanshu360-cpu/quick-structures-npm#trie">Trie</a>
 
 # Linked List
 
