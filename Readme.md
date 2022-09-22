@@ -18,7 +18,7 @@ Added and Fixed Sets
 
 For now this Package includes
 
-1. LinkedList
+1. <a href="https://github.com/Priyanshu360-cpu/quick-structures-npm#linked-list">LinkedList</a>
 2. Graph
 3. Binary Tree
 4. Maps
