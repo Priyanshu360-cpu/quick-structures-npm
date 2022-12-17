@@ -1,5 +1,4 @@
-
- class structures{
+class structures{
     constructor(){
     this.linkedlist = require('./linkedlist.js');
     this.stack = require('./stack.js');
