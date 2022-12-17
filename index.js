@@ -1,3 +1,4 @@
+
  class structures{
     constructor(){
     this.linkedlist = require('./linkedlist.js');

@@ -46,7 +46,6 @@ traverse(key){
     this.right.traverse();
 }
 insert(d,g){
-   
     if(this.data>d){
         if(this.left==null){
             this.left=new avl(d);
