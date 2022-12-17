@@ -10,6 +10,11 @@
     this.map=require('./map.js');
     this.set=require('./set.js');
     this.trie=require('./trie.js');
- }
+    this.avl=require('./avltree.js');
+    this.bst=require('./bst.js');
+    this.btree=require('./b+ree.js');
+    this.maxheap=require('./maxheap.js');
+    this.minheap=require('./minheap.js');
+    }
 }
 module.exports = structures;

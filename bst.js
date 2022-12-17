@@ -132,3 +132,4 @@ class bst{
         return this.depth();
     }
 }
+module.exports=bst;

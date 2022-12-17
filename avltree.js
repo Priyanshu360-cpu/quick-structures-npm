@@ -88,7 +88,6 @@ insert(d,g){
     this.right.data=a;
     this.right.right=b;
  }
-
  check(key){
     if(this.isbalanced()==false){
         let height=this.heightchecked();
@@ -109,3 +108,4 @@ insert(d,g){
     }
  }
 }
+module.exports=avl;
