@@ -4,8 +4,10 @@
      constructor(data){
         this.data=data;
         this.next=null;
+        this.makecycle=false;
      }
      sort(){
+        if(this.makecycle==false){
         let a=[];
         let temp=this;
         while(temp!=null){
@@ -20,7 +22,26 @@
             temp=temp.next;
             i++;
         }
+    }
+    else{
+        let a=[];
+        let temp=this;
+        while(temp.next!=this){
+            a.push(temp.data);
+            temp=temp.next;
+        }
+        a.push(temp.data);
+        a.sort();
+        temp=this;
+        let i=0;
+        while(temp.next!=this){
+            temp.data=a[i];
+            temp=temp.next;
+            i++;
+        }
+        temp.data=a[i];
      }
+    }
     insert(data){
         let temp=new linkedlist(data);
         temp.next=this.next;
