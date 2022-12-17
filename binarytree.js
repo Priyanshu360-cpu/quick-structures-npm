@@ -7,6 +7,16 @@ class binarytree{
         this.left=null;
         this.right=null;
     }
+    postorder(){
+        this.left.postorder();
+        this.right.postorder();
+        console.log(this.data);
+    }
+    inorder(){
+        this.left.inorder();
+        console.log(this.data);
+        this.right.inorder();
+    }
     print(){
         console.log(this.data);
         temp=this.left;
