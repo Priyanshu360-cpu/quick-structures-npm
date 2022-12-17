@@ -12,8 +12,8 @@
     this.trie=require('./trie.js');
     this.avl=require('./avltree.js');
     this.bst=require('./bst.js');
-    this.binarysearchtree=require('./binarysearchtree.js');
-    this.btree=require('./b+ree.js');
+    this.binarysearchtree=require('./bst.js');
+    this.btree=require('./b+tree.js');
     this.maxheap=require('./maxheap.js');
     this.minheap=require('./minheap.js');
     this.redblack=require('./redblacktree.js');

@@ -53,7 +53,7 @@ class reblacktree{
         temp.left=this;
         temp.color=this.color;
         this.color="red";
-        this=temp;
+        return temp;
     }
     rotateRight(){
         let temp=this.left;
@@ -61,7 +61,7 @@ class reblacktree{
         temp.right=this;
         temp.color=this.color;
         this.color="red";
-        this=temp;
+        return temp;
     }
     rotateLeftRight(){
         this.left.rotateLeft();

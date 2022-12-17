@@ -21,16 +21,22 @@ class avl{
     }
  isbalanced(){
     if(this==null)return false;
-    let l=this.left.height();
-    let r=this.right.height();
+    let l=this.left!=null?this.left.height():0;
+    let r=this.right!=null?this.right.height():0;
     if(Math.abs(l-r)>1||Math.abs(l-r)<-1)return true;
+    if(this.left&&this.right)
     return (this.left.height()||this.right.height());
+    else if(this.left)
+    return this.left.height();
+    else if(this.right)
+    return this.right.height();
+    else return false;
  }
 heightchecked(){
     if(this==null)return 0;
-    let l=this.left.height();
-    let b=this.right.height();
-    return l-b;
+    let l=this.left!=null?this.left.height():0;
+    let r=this.right!=null?this.right.height():0;
+    return l-r;
 }
 traverse(key){
     this.check(key);
@@ -40,18 +46,10 @@ traverse(key){
     this.right.traverse();
 }
 insert(d,g){
-    if(this==null){
-        this=new avl(d);
-        this.left=null;
-        this.right=null;
-        this.level=g;
-        return;
-    }
+   
     if(this.data>d){
         if(this.left==null){
             this.left=new avl(d);
-            this.left.left=null;
-            this.right.right=null;
             this.left.level=g;
             return;
         }else this.left.insert(d,g+1);
@@ -59,24 +57,12 @@ insert(d,g){
     else{
         if(this.right==null){
             this.right=new avl(d);
-            this.right.left=null;
-            this.right.right=null;
             this.right.level=g;
             return;
         }else this.right.insert(d,g+1);
     }
     if(this.level==0)
     this.traverse(d);
- }
- leftrotate(){
-    let a=this.data;
-    if(!this.left)
-    this.left=new avl(0);
-    this=this.left;
-    let b=this.left;
-    this.left=new avl(0);
-    this.left.data=a;
-    this.left.left=b;
  }
  preorder(){
     console.log(this.data);
@@ -99,16 +85,18 @@ insert(d,g){
         this.right.postorder();
         console.log(this.data);
     }
- rightrotate(){
-    let a=this.data;
-    if(!this.right)
-    this.right=new avl(0);
-    this=this.right;
-    let b=this.right;
-    this.right=new avl(0);
-    this.right.data=a;
-    this.right.right=b;
- }
+    leftrotate(){
+        let temp=this.right;
+        this.right=temp.left;
+        temp.left=this;
+        return temp;
+    }
+    rightrotate(){
+        let temp=this.left;
+        this.left=temp.right;
+        temp.right=this;
+        return temp;
+    }
  check(key){
     if(this.isbalanced()==false){
         let height=this.heightchecked();
