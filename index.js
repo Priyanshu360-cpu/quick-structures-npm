@@ -22,6 +22,9 @@
     this.doublylinkedlist=require('./doublylinkedlist.js');
     this.pathogenictree=require('./pathogenictree.js');
     this.pathogen=require('./pathogenictree.js');
+    this.chainedhashing=require('./chainedhashing.js');
+    this.probbedhashing=require('./probbedhashing.js');
+    this.segmenttree=require('./segmenttree.js');
     }
 }
 module.exports = structures;
