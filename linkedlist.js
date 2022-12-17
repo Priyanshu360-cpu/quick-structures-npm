@@ -78,5 +78,8 @@
             temp=temp.next;
         }
     }
+    cycle(){
+        this.makecycle=true;
+    }
 }
 module.exports=linkedlist;
