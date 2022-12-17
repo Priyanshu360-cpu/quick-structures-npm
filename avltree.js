@@ -16,7 +16,6 @@ class avl{
         }
         else if(this.right==null){
             return this.left.height()+1;
-
         }
         return Math.max(this.left.height(),this.right.height());
     }
@@ -79,6 +78,27 @@ insert(d,g){
     this.left.data=a;
     this.left.left=b;
  }
+ preorder(){
+    console.log(this.data);
+    if(this.left)
+    this.left.preorder();
+    if(this.right)
+    this.right.preorder();
+ }
+    inorder(){
+        if(this.left)
+        this.left.inorder();
+        console.log(this.data);
+        if(this.right)
+        this.right.inorder();
+    }
+    postorder(){
+        if(this.left)
+        this.left.postorder();
+        if(this.right)
+        this.right.postorder();
+        console.log(this.data);
+    }
  rightrotate(){
     let a=this.data;
     if(!this.right)
