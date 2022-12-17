@@ -28,6 +28,36 @@ class graph{
             }
         }
     }
+    bfs(){
+        q.clear();
+        q.enqueue(this);
+        let visited=[];
+        while(!q.isEmpty()){
+            let temp=q.dequeue();
+            if(visited.includes(temp.data)){
+                continue;
+            }
+            console.log(temp.data);
+            visited.push(temp.data);
+            for(let i=0;i<temp.edges.length;i++){
+                q.enqueue(temp.edges[i]);
+            }
+        }
+    }
+    dfs(){
+        let visited=[];
+        this.dfsgenerator(this,visited);
+    }
+    dfsgenerator(node,visited){
+        if(visited.includes(node.data)){
+            return;
+        }
+        console.log(node.data);
+        visited.push(node.data);
+        for(let i=0;i<node.edges.length;i++){
+            this.dfsgenerator(node.edges[i],visited);
+        }
+    }
     sum(){
         let sum=0;
         let visited=[];

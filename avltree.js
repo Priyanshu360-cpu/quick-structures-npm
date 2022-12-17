@@ -66,6 +66,7 @@ insert(d,g){
             return;
         }else this.right.insert(d,g+1);
     }
+    if(this.level==0)
     this.traverse(d);
  }
  leftrotate(){

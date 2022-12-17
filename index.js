@@ -12,6 +12,7 @@
     this.trie=require('./trie.js');
     this.avl=require('./avltree.js');
     this.bst=require('./bst.js');
+    this.binarysearchtree=require('./binarysearchtree.js');
     this.btree=require('./b+ree.js');
     this.maxheap=require('./maxheap.js');
     this.minheap=require('./minheap.js');
@@ -19,6 +20,8 @@
     this.priorityqueue=require('./priorityqueue.js');
     this.deque=require('./deque.js');
     this.doublylinkedlist=require('./doublylinkedlist.js');
+    this.pathogenictree=require('./pathogenictree.js');
+    this.pathogen=require('./pathogenictree.js');
     }
 }
 module.exports = structures;
