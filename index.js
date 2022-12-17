@@ -15,6 +15,10 @@
     this.btree=require('./b+ree.js');
     this.maxheap=require('./maxheap.js');
     this.minheap=require('./minheap.js');
+    this.redblack=require('./redblacktree.js');
+    this.priorityqueue=require('./priorityqueue.js');
+    this.deque=require('./deque.js');
+    this.doublylinkedlist=require('./doublylinkedlist.js');
     }
 }
 module.exports = structures;
