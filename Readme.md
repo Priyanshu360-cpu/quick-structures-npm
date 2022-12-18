@@ -42,12 +42,12 @@ For now this Package includes
 8. Vectors
 9. Matrix and Sparse Matrix
 10. <a href="#trie">Trie</a>
-11. <a href="avl-tree">Avl Tree</a>
+11. <a href="#avl-tree">Avl Tree</a>
 12. B+ Tree
 13. Binary Search Tree
-14. <a href="red-black-tree">RedBlack Tree</a>
+14. <a href="#red-black-tree">RedBlack Tree</a>
 15. Segment Tree
-16. <a href="heap">Min and Max Heap</a>
+16. <a href="#heap">Min and Max Heap</a>
 17. Probbing
 18. Double Linked List
 19. Priority Queue
