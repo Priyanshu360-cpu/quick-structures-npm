@@ -14,8 +14,6 @@ console.log(new structures().classes);
 console.log(new structures())//in depth view of all the classes
 ```
 
-![image](https://user-images.githubusercontent.com/79325092/208305053-142b3da7-2735-4ebb-bc68-c3ec2a02fe62.png)
-
 *Newly Updates*
 
 ```
