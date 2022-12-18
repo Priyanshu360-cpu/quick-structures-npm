@@ -24,4 +24,14 @@ class stack{
         }
     }
 }
-module.exports=stack;
+module.exports={
+    structure:stack,
+    description:"Stack",
+    methods:{
+        push:"Pushes an element into the stack",
+        pop:"Pops an element from the stack",
+        top:"Returns the top element of the stack",
+        print:"Prints the stack"
+    },
+    category:"Stack"
+};

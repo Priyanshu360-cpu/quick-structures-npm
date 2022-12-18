@@ -40,4 +40,14 @@ class binarytree{
         }
     }   
 }
-module.exports=binarytree;
+module.exports={structure:binarytree,
+                description:"Binary Tree",
+                complexity:"O(log n)",
+                methods:{
+                    print:"Prints the tree",
+                    depth:"Returns the depth of the tree",
+                    inorder:"Prints the tree in inorder",
+                    postorder:"Prints the tree in postorder",
+                    preorder:"Prints the tree in preorder"
+                }
+            };

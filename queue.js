@@ -27,4 +27,24 @@ constructor(){
         console.log(this.queue);
     }
 }
-module.exports=queue;
+module.exports={
+    structure:queue,
+    description:"Queue",
+    complexity:{
+        enqueue:"O(1)",
+        dequeue:"O(1)",
+        peek:"O(1)",
+        isEmpty:"O(1)",
+        clear:"O(1)",
+        print:"O(n)"
+    },
+    methods:{
+        enqueue:"Inserts an element into the queue",
+        dequeue:"Deletes an element from the queue",
+        peek:"Returns the first element in the queue",
+        isEmpty:"Checks if the queue is empty",
+        clear:"Clears the queue",
+        print:"Prints the queue"
+    },
+    category:"Queue"
+};

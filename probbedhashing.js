@@ -34,4 +34,16 @@ class probbing{
         else return -1;
     }
 }
-module.exports=probbing;
+module.exports={
+    structure:probbing,
+    description:"Probing Hashing",
+    methods:{
+        insert:"Inserts a value into the hash table",
+        delete:"Deletes a value from the hash table",
+        search:"Searches for a value in the hash table"
+    },
+    properties:{
+        size:"The size of the hash table"
+    },
+    category:"Hashing"
+};

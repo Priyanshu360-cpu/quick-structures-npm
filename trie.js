@@ -54,4 +54,20 @@ class trie{
         return true;
     }
 }
-module.exports=trie;
+module.exports={
+    structure:trie,
+    description:"Trie",
+    complexity:{
+        insert:"O(n)",
+        search:"O(n)",
+        strictsearch:"O(n)",
+        partialsearch:"O(n)"
+    },
+    methods:{
+        insert:"Inserts a word into the trie",
+        search:"Searches for a word in the trie",
+        strictsearch:"Searches for a word in the trie",
+        partialsearch:"Searches for a word in the trie"
+    },
+    category:"Tree"
+};

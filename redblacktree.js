@@ -108,3 +108,21 @@ class reblacktree{
         console.log(this.data);
     }
 }
+module.exports={
+    structure:reblacktree,
+    description:"Red Black Tree",
+    category:"Tree",
+    methods:{
+        insert:"Inserts a new node in the tree",
+        print:"Prints the tree in preorder",
+        inorder:"Prints the tree in inorder",
+        preorder:"Prints the tree in preorder",
+        postorder:"Prints the tree in postorder"
+    },
+    attributes:{
+        data:"The data of the node",
+        left:"The left child of the node",
+        right:"The right child of the node",
+        color:"The color of the node"
+    },
+};

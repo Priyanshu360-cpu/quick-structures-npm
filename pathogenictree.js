@@ -64,4 +64,15 @@ class pathogenic{
         }
     }
 }
-module.exports=pathogenic;
+module.exports=
+{
+    structure:pathogenic,
+    description:"Pathogenic Tree",
+    methods:{
+        insert:"Inserts a new node into the tree",
+        search:"Searches for a node in the tree",
+        delete:"Deletes a node from the tree"
+    },
+    complexity:"O(log n)",
+    category:"Tree"
+};

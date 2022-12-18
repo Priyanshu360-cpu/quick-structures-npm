@@ -93,4 +93,21 @@ class btree{
         }
     }
 }
-module.exports=btree;
+module.exports=
+{
+    structure:btree,
+    description:"B-Tree",
+    complexity:{
+        insert:"O(log n)",
+        search:"O(log n)",
+        delete:"O(log n)"
+    },
+    category:"Tree",
+    methods:{
+        insert:"Inserts a new element into the tree",
+        search:"Searches for an element in the tree",
+        delete:"Deletes an element from the tree",
+        print:"Prints the tree",
+        depth:"Returns the depth of the tree"
+    }
+};

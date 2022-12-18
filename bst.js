@@ -132,4 +132,19 @@ class bst{
         return this.depth();
     }
 }
-module.exports=bst;
+module.exports={
+    structure:bst,
+    description:"Binary Search Tree",
+    complexity:"O(log n)",
+    methods:{
+        insert:"Inserts a node in the tree",
+        search:"Searches for a node in the tree",
+        delete:"Deletes a node from the tree",
+        print:"Prints the tree",
+        depth:"Returns the depth of the tree",
+        height:"Returns the height of the tree",
+        inorder:"Prints the tree in inorder",
+        postorder:"Prints the tree in postorder",
+        preorder:"Prints the tree in preorder"
+    }
+};

@@ -47,4 +47,16 @@ class maxheap{
         return temp;       
     }
 }
-module.exports=maxheap;
+module.exports={
+    structure:maxheap,
+    description:"Max Heap",
+    complexity:{
+        insert:"O(log n)",
+        delete:"O(log n)"
+    },
+    methods:{
+        insert:"Inserts an element into the heap",
+        delete:"Deletes the maximum element from the heap"
+    },
+    category:"Heap"
+};

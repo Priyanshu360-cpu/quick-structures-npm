@@ -109,4 +109,14 @@ class doublylinkedlist{
         this.prev=temp;
     }
 }
-module.exports=doublylinkedlist;
+module.exports={
+    structure:doublylinkedlist,
+    description:"Doubly Linked List",
+    methods:{
+        insert:"Inserts a new node at the end of the list",
+        delete:"Deletes a node from the list",
+        insertposition:"Inserts a node at a given position",
+        print:"Prints the list",
+        cycle:"Makes the list circular"
+    }
+};

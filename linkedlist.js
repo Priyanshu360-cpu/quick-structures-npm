@@ -6,6 +6,18 @@
         this.next=null;
         this.makecycle=false;
      }
+        find(data){
+        let temp=this;
+        while(temp!=null){
+            if(temp.data==data){
+                console.log(true);
+                return true;
+            }
+            temp=temp.next;
+        }
+        console.log(false);
+        return false;
+    }
      sort(){
         if(this.makecycle==false){
         let a=[];
@@ -82,4 +94,24 @@
         this.makecycle=true;
     }
 }
-module.exports=linkedlist;
+module.exports={
+    structure:linkedlist,
+    description:"Linked List",
+    complexity:{
+        insert:"O(1)",
+        delete:"O(n)",
+        insertposition:"O(n)",
+        print:"O(n)",
+        cycle:"O(n)",
+        sort:"O(nlogn)"
+    },
+    methods:{
+        insert:"Inserts a new node at the beginning of the list",
+        delete:"Deletes a node from the list",
+        insertposition:"Inserts a node at a given position",
+        print:"Prints the list",
+        cycle:"Makes the list cyclic",
+        sort:"Sorts the list",
+        find:"Finds a node in the list"
+    }
+};

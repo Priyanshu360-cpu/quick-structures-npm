@@ -25,4 +25,24 @@ class set{
         return this.set[index];
     }
 }
-module.exports=set;
+module.exports={
+    structure:set,
+    description:"Set",
+    complexity:{
+        add:"O(n)",
+        pop:"O(1)",
+        print:"O(n)",
+        sort:"O(nlogn)",
+        size:"O(1)",
+        at:"O(1)"
+    },
+    methods:{
+        add:"Adds an element to the set",
+        pop:"Removes the last element from the set",
+        print:"Prints the set",
+        sort:"Sorts the set",
+        size:"Returns the size of the set",
+        at:"Returns the element at the given index"
+    },
+    category:"Set"
+};

@@ -47,4 +47,16 @@ class minheap{
         return temp;       
     }
 }
-module.exports=minheap;
+module.exports={
+    structure:minheap,
+    description:"Min Heap",
+    complexity:{
+        insert:"O(log n)",
+        delete:"O(log n)"
+    },
+    methods:{
+        insert:"Inserts an element into the heap",
+        delete:"Deletes the minimum element from the heap"
+    },
+    category:"Heap"
+}

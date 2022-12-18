@@ -54,4 +54,20 @@ class segment{
         }
     }
 }
-module.exports=segment;
+module.exports={
+    structure:segment,
+    description:"Segment Tree",
+    complexity:{
+        insert:"O(log n)",
+        delete:"O(log n)",
+        sumat:"O(log n)",
+        update:"O(log n)"
+    },
+    methods:{
+        insert:"Inserts an element into the segment tree",
+        delete:"Deletes an element from the segment tree",
+        sumat:"Returns the sum of elements from l to r",
+        update:"Updates the value of an element"
+    },
+    category:"Tree"
+};

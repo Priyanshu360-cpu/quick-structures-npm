@@ -30,3 +30,20 @@ class map{
         }
     }
 }
+module.exports={
+    structure:map,
+    description:"Map",
+    complexity:{
+        insert:"O(1)",
+        erase:"O(n)",
+        find:"O(n)",
+        print:"O(n)"
+    },
+    methods:{
+        insert:"Inserts a key-value pair into the map",
+        erase:"Deletes a key-value pair from the map",
+        find:"Finds a value in the map",
+        print:"Prints the map"
+    },
+    category:"Map"
+};

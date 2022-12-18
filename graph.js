@@ -1,5 +1,5 @@
 const queue = require('./queue.js');
-let q = new queue();
+let q = new queue.structure();
 class graph{
     data;
     edges;
@@ -157,4 +157,19 @@ class graph{
         return arr;
     }
 }
-module.exports=graph;
+module.exports={
+    structure:graph,
+    description:"Graph data structure",
+    methods:{
+        addEdge:"Adds an edge to the graph",
+        print:"Prints the graph using BFS",
+        bfs:"Prints the graph using BFS",
+        dfs:"Prints the graph using DFS",
+        sum:"Returns the sum of all the nodes in the graph",
+        max:"Returns the maximum value of all the nodes in the graph",
+        min:"Returns the minimum value of all the nodes in the graph",
+        count:"Returns the number of nodes in the graph",
+        average:"Returns the average of all the nodes in the graph",
+        sort:"Returns the sorted array of all the nodes in the graph"
+    }
+};

@@ -36,4 +36,20 @@ class priorityqueue{
         }
     }
 }
-module.exports=priorityqueue;
+module.exports={
+    structure:priorityqueue,
+    description:"Priority Queue",
+    complexity:{
+        insert:"O(n)",
+        delete:"O(n)",
+        search:"O(n)",
+        print:"O(n)"
+    },
+    methods:{
+        insert:"Inserts an element into the queue",
+        delete:"Deletes an element from the queue",
+        search:"Searches for an element in the queue",
+        print:"Prints the queue"
+    },
+    category:"Queue"
+};
