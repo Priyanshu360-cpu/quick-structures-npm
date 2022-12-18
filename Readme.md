@@ -4,16 +4,22 @@ Data Structures provide us a convenient way of storing and handling data into ou
 
 This Package is aimed to provide users quick strucures and algorithms at their finger tips
 
-*Latest Version* - 1.0.14 
+*Latest Version* - 2.0.0
 
 *Newly Updates*
 
 ```
+Added Avl Tree
+Added RedBlack and Segment Tree
+Added Heap
+Added Probbing
+Added Circularity to structures
+Added B+Tree
+Added multiple chained structures
+Added pathogens and priorities to structures
 Added Trie
-Added Partial Search for Trie
-Added Strict Insert for Trie
-Added Strict Search for Trie
-Added and Fixed Sets
+Debugged Map and DFS
+Changed Structure export style
 ```
 
 For now this Package includes
@@ -26,8 +32,20 @@ For now this Package includes
 6. Stacks
 7. Set
 8. Vectors
-9. Matrix
+9. Matrix and Sparse Matrix
 10. <a href="#trie">Trie</a>
+11. Avl Tree
+12. B+ Tree
+13. Binary Search Tree
+14. RedBlack Tree
+15. Segment Tree
+16. Min and Max Heap
+17. Probbing
+18. Double Linked List
+19. Priority Queue
+20. Pathoginc Tree
+21. Chained Hash Table
+
 
 # Linked List
 
